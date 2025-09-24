@@ -7,6 +7,49 @@ import { url } from 'inspector';
 // Enhanced project content array with all projects
 const PROJECT_CONTENT = [
   {
+    title: 'Reachly',
+    description:
+      'AI-powered B2B lead generation via multi-channel outreach. Automates personalized email campaigns, LinkedIn outreach, and appointment setting with high deliverability.',
+    techStack: ['AI', 'Email Automation', 'LinkedIn Outreach', 'Analytics'],
+    date: '2023–Present',
+    links: [
+      { name: 'Login', url: 'https://reachly.t3xlk.com/login' },
+      { name: 'Website', url: 'https://www.reachly.co/' },
+    ],
+    images: [
+      { src: '/Reachly.png', alt: 'Reachly' },
+      { src: '/Reachly_card.png', alt: 'Reachly preview' },
+    ],
+  },
+  {
+    title: 'Apilage AI',
+    description:
+      'Sri Lanka’s first Sinhala-native AI assistant for O/L and A/L students. Supports Sinhala communication, explanations with images/PDFs, mind maps, and MCQ practice.',
+    techStack: ['AI', 'Sinhala NLP', 'Educational Technology'],
+    date: '2024–Present',
+    links: [
+      { name: 'Website', url: 'https://apilageai.lk/' },
+    ],
+    images: [
+      { src: '/ApilageAI.png', alt: 'Apilage AI' },
+      { src: '/ApilageAI_card.png', alt: 'Apilage AI preview' },
+    ],
+  },
+  {
+    title: 'T3X',
+    description:
+      'Digital solutions for modern businesses: custom websites, business systems, POS solutions, and technical support built with modern stacks.',
+    techStack: ['React', 'Next.js', 'Tailwind', 'POS Systems', 'Web Development'],
+    date: '2022–Present',
+    links: [
+      { name: 'Website', url: 'https://t3xlk.com/' },
+    ],
+    images: [
+      { src: '/T3X.png', alt: 'T3X' },
+      { src: '/T3X_card.png', alt: 'T3X preview' },
+    ],
+  },
+  {
     title: 'Synto',
     description:
       'Synto is an AI-powered interface that transforms complex blockchain interactions into simple, natural language commands. Whether you want to send tokens, stake assets, swap coins, or even create NFTs or liquidity pools, just tell Synto what to do — no manual wallet interactions, no technical jargon. One of my biggest projects yet',
@@ -440,57 +483,23 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 // Main data export with updated content
 export const data = [
   {
-    category: 'Startup Project',
-    title: 'Synto',
-    src: '/syntopreview.png',
-    content: <ProjectContent project={{ title: 'Synto' }} />,
+    category: 'SaaS',
+    title: 'Reachly',
+    src: '/Reachly_card.png',
+    content: <ProjectContent project={{ title: 'Reachly' }} />,
   },
   {
-    category: 'Fun Tool',
-    title: 'Rrate',
-    src: '/ratepreview.png',
-    content: <ProjectContent project={{ title: 'Rrate' }} />,
+    category: 'AI & EdTech',
+    title: 'Apilage AI',
+    src: '/ApilageAI_card.png',
+    content: <ProjectContent project={{ title: 'Apilage AI' }} />,
   },
   {
-    category: 'Hackathon Winner',
-    title: 'Defai',
-    src: '/defaipreview.png',
-    content: <ProjectContent project={{ title: 'Defai' }} />,
+    category: 'Agency',
+    title: 'T3X',
+    src: '/T3X_card.png',
+    content: <ProjectContent project={{ title: 'T3X' }} />,
   },
-  {
-    category: 'Hackathon Winner',
-    title: 'Fitgear',
-    src: '/fitgearpreview.png',
-    content: <ProjectContent project={{ title: 'Fitgear' }} />,
-  },
-  {
-    category: 'Business Intelligence',
-    title: 'Datai',
-    src: '/dataipreview.png',
-    content: <ProjectContent project={{ title: 'Datai' }} />,
-  },
-  {
-    category: '42 Project',
-    title: '3d Pong Game',
-    src: '/transcendancepreview.png',
-    content: <ProjectContent project={{ title: '3d Pong Game' }} />,
-  },
-  {
-    category: '42 Project',
-    title: 'Minishell',
-    src: '/minishellpreview.png',
-    content: <ProjectContent project={{ title: 'Minishell' }} />,
-  },
-  {
-    category: 'Automation',
-    title: 'YouBot',
-    src: '/youbotpreview.png',
-    content: <ProjectContent project={{ title: 'YouBot' }} />,
-  },
-  {
-    category: 'Web Development',
-    title: 'Old Portfolio',
-    src: '/oldportfoliopreview.png',
-    content: <ProjectContent project={{ title: 'Old Portfolio' }} />,
-  },
+  
+  
 ];
