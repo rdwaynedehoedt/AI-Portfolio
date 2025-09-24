@@ -8,7 +8,7 @@ export function Contact() {
   // Contact information
   const contactInfo = {
     name: 'Dwayne (Rosch) Dehoedt',
-    email: 'dwaynedehoedt@example.com',
+    email: 'dwaynedehoedt.rosch@gmail.com',
     handle: '@Dwayne.Rosch',
     socials: [
       {
