@@ -485,19 +485,19 @@ export const data = [
   {
     category: 'SaaS',
     title: 'Reachly',
-    src: '/Reachly_card.png',
+    src: '/Reachly.png',
     content: <ProjectContent project={{ title: 'Reachly' }} />,
   },
   {
     category: 'AI & EdTech',
     title: 'Apilage AI',
-    src: '/ApilageAI_card.png',
+    src: '/apilage ai.png',
     content: <ProjectContent project={{ title: 'Apilage AI' }} />,
   },
   {
     category: 'Agency',
     title: 'T3X',
-    src: '/T3X_card.png',
+    src: '/t3x.png',
     content: <ProjectContent project={{ title: 'T3X' }} />,
   },
   

@@ -12,7 +12,7 @@ export function Presentation() {
     location: 'Sri Lanka',
     // Add a newline character after the emoji
     description:
-      "Hey 👋\nI'm Dwayne (Rosch) Dehoedt — Founder @ Reachly. I build clean, simple, and useful products across SaaS, web, and AI. ex-WSO2. Based in Sri Lanka. I love turning complex tech into practical tools that deliver real business value.",
+      "Hey 👋\nI'm Dwayne (Rosch) Dehoedt Founder @ Reachly. I build clean, simple, and useful products across SaaS, web, and AI. ex-WSO2. Based in Sri Lanka. I love turning complex tech into practical tools that deliver real business value.",
     src: '/my%20img%20no%20back%20ground%20.png',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
