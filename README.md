@@ -1,70 +1,45 @@
-![image](assets/readme-photo.png)
- 
-# World's first AI portfolio 🤖✨  
+# 🤖 AI Portfolio
 
-**Static portfolios are dead.**  
-So I built [toukoum.fr](https://toukoum.fr).
+**Static portfolios are old news.**  
+This is a next-generation **AI-powered portfolio** — a place where your experience, projects, and skills are not just displayed… they **talk back**.
 
-Instead of making you scroll endlessly, my portfolio adapts to *you*.  
-Ask a question — my AI avatar replies instantly.
-
-## 👇 What can you ask?
-
-- 🧠 **Tech recruiter?** Ask about my stack & results  
-- 💻 **Dev?** Dive into my code & mindset  
-- 🧑‍🤝‍🧑 **Friend or family?** See what I’ve been working on  
+Instead of scrolling through endless sections, users can simply **ask questions** — and the AI responds instantly.
 
 ---
 
-This is not a portfolio.  
-It’s a **conversation tailored to your curiosity**.
+## 💡 What Can You Do Here?
 
-➡️ **Try it now:** [https://toukoum.fr](https://toukoum.fr)  
-*What will you ask?*
+- 🧠 **Recruiter?** — Ask about my tech stack, skills, and results.  
+- 💻 **Developer?** — Explore my code, projects, and mindset.  
+- 🧑‍🤝‍🧑 **Friend or Family?** — See what I’ve been building lately.
 
-## 🚀 How to run
+This isn’t just a portfolio —  
+It’s an **interactive conversation** built around your curiosity.
 
-Want to run this project locally? Here's what you need:
+---
 
-### Prerequisites
-- **Node.js** (v18 or higher)
-- **pnpm** package manager
-- **OpenAI API token** (for AI chat functionality)
-- **GitHub token** (for GitHub integration features)
+## 🌐 Live Demo
 
-### Setup
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd portfolio
-   ```
+👉 Try it here: [https://your-portfolio-link.com](https://your-portfolio-link.com)  
+*What will you ask first?*
 
-2. **Install dependencies**
-   ```bash
-   pnpm install
-   ```
+---
 
-3. **Environment variables**
-   Create a `.env` file in the root directory:
-   ```env
-   OPENAI_API_KEY=your_openai_api_key_here
-   GITHUB_TOKEN=your_github_token_here
-   ```
+## 🛠️ Getting Started
 
-4. **Run the development server**
-   ```bash
-   pnpm dev
-   ```
+Want to run this project locally? Follow the steps below:
 
-5. **Open your browser**
-   Navigate to `http://localhost:3000`
+### 1. Prerequisites
 
-### Getting your **tokens**
-- **OpenAI API Key**: Get it from [platform.openai.com](https://platform.openai.com/api-keys)
-- **GitHub Token**: Generate one at [github.com/settings/tokens](https://github.com/settings/personal-access-tokens) with repo access
+- **Node.js** (v18 or higher)  
+- **pnpm** package manager  
+- **OpenAI API Key** *(for AI chat)*  
+- **GitHub Token** *(optional — for GitHub project integration)*
 
+---
 
+### 2. Clone the Repository
 
-#### 🔖 Tags
-
-`#AIPortfolio` `#InnovationInTech` `#DigitalResume` `#JobSearch` `#TechInnovation` `#WebDevelopment` `#FutureTech`
+```bash
+git clone <your-repo-url>
+cd portfolio
